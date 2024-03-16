@@ -11,6 +11,7 @@ To create the project, please assemble the following components:
   - 18650 battery and charging module with 5V step-up converter,
   - couple of wires,
   - DJI Tello drone.
+  - 3D printer (optional)
 
 ****CONNECTION DIAGRAM****
 
@@ -59,6 +60,7 @@ The project's operation is presented in the following network of activities:
 
 ![Diagram bez tytułu (1)](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/02dcdab9-21d5-4d84-9e8c-e92f13e86955)
 
+To embed electronic components, you can use the control platform project. The files are located in the prints folder.
 
 **BIBLIOGRAPHY**
 
