@@ -14,6 +14,9 @@ To create the project, please assemble the following components:
 
 **CONNECTION DIAGRAM**
 
+
+Connect the elements according to the following diagram. You can power the microcontrollers via the USB port or directly to the pins, but remember that Arduino Nano Sense cannot be powered with 5V directly to the pins. If you want to power this board using the pins, you must first connect the jumper at the bottom of the board.
+
 ![schemat](https://github.com/oskar0701/Drone-control-system-for-users-with-extended-requirements/assets/117591871/3c22c7b4-028c-46c5-8c77-407cc2828be0)
 
 **ESP SIDE**
