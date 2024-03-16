@@ -17,7 +17,7 @@ To create the project, please assemble the following components:
 Connect the elements according to the following diagram. You can power the microcontrollers via the USB port or directly to the pins, but remember that Arduino Nano Sense cannot be powered with 5V directly to the pins. If you want to power this board using the pins, you must first connect the jumper at the bottom of the board. The connected GPIO pins between the two boards are responsible for 6 voice commands, the recognition of which is signaled by a high state.
 The commands available in the project are: up, down, left, right, forward and backward.
 
-![schemat](https://github.com/oskar0701/Drone-control-system-for-users-with-extended-requirements/assets/117591871/3c22c7b4-028c-46c5-8c77-407cc2828be0)
+![schemat](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/7119259e-32fd-4274-ad60-23505d97c64e)
 
 **ESP SIDE**
 
