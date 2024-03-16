@@ -67,3 +67,7 @@ To embed electronic components, you can use the control platform project. The fi
 Tello control lib: https://github.com/akshayvernekar/telloArduino
 
 Tensorflow Lite examples: https://www.tensorflow.org/lite/microcontrollers
+
+Mouting tray for MPU6050: https://www.thingiverse.com/thing:4912985
+
+Powerbank module 134n3P / 1S 18650: https://www.thingiverse.com/thing:3867064
