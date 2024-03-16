@@ -1,7 +1,7 @@
 # Drone-control-system-for-users-with-extended-requirements
 The hands-free control system for the DJI Tello drone.
 
-The project involves creating a head-mounted platform that allows controlling the flight of a DJI Tello drone using gyroscope readings and recognized voice commands.
+The project involves creating a head-mounted platform that allows controlling the flight of a DJI Tello drone using gyroscope readings and recognized voice command susing a model trained on the tensorflow lite engine.
 
 To create the project, please assemble the following components:
   - MPU6050 3-axis gyro module,
