@@ -39,3 +39,9 @@ Check whether command recognition does not enter the noise band by manipulating 
 
 ![image](https://github.com/oskar0701/Drone-control-system-for-users-with-extended-requirements/assets/117591871/d2107676-92cf-4ee0-9bea-3a17f48db99f)
 
+**SOFTWARE INTEGRATION**
+
+The boards communicate using logical 0 and 1. When a voice command is recognized, the high state is displayed for a second. During this time, it is received by ESP32 and, depending on the pin, the drone's flight instructions are handled. 
+
+Functionalities available for each command:
+- up: 
