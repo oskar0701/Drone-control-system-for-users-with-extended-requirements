@@ -50,8 +50,8 @@ Functionalities available for each command:
 - down: decreasing the height by 40cm or landing if if the drone is at a height below 30 cm,
 - left: ccw 40 degress,
 - right: cw 40 degress,
-- forward: front flip,
-- backward: back flip,
+- forward: frontflip,
+- backward: backflip,
 
 If you want, you can declare your own command support.
 
