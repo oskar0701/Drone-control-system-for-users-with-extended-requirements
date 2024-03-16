@@ -12,6 +12,10 @@ To create the project, please assemble the following components:
   - couple of wires,
   - DJI Tello drone.
 
+**CONNECTION DIAGRAM**
+
+![schemat](https://github.com/oskar0701/Drone-control-system-for-users-with-extended-requirements/assets/117591871/3c22c7b4-028c-46c5-8c77-407cc2828be0)
+
 **ESP SIDE**
 
 It's best to start by uploading the program to the control side of the drone, i.e., the ESP32. The program also includes sending flight instructions based on gyroscope axis deflections and handling voice commands coming from another microcontroller, but more on that in a moment.
