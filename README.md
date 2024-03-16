@@ -61,4 +61,5 @@ The project's operation is presented in the following network of activities:
 **BIBLIOGRAPHY**
 
 Tello control lib: https://github.com/akshayvernekar/telloArduino
+
 Tensorflow Lite examples: https://www.tensorflow.org/lite/microcontrollers?hl=pl
