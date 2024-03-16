@@ -1,4 +1,4 @@
-# Drone-control-system
+# Drone-control-system-using-gyro-and-micro-speech-model
 The hands-free control system for the DJI Tello drone.
 
 The project involves creating a head-mounted platform that allows controlling the flight of a DJI Tello drone using gyroscope readings and recognized voice commands using a model trained on the Tensorflow Lite engine.
