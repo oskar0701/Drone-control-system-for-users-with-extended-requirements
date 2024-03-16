@@ -20,6 +20,8 @@ The commands available in the project are: up, down, left, right, forward and ba
 
 ![schemat](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/7119259e-32fd-4274-ad60-23505d97c64e)
 
+To embed electronic components, you can use the control platform project. The files are located in the prints folder.
+
 **ESP SIDE**
 
 It's best to start by uploading the program to the control side of the drone, i.e., the ESP32. The program also includes sending flight instructions based on gyroscope axis deflections and handling voice commands coming from another microcontroller, but more on that in a moment.
@@ -59,8 +61,6 @@ If you want, you can declare your own command support.
 The project's operation is presented in the following network of activities:
 
 ![Diagram bez tytułu (1)](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/02dcdab9-21d5-4d84-9e8c-e92f13e86955)
-
-To embed electronic components, you can use the control platform project. The files are located in the prints folder.
 
 **BIBLIOGRAPHY**
 
