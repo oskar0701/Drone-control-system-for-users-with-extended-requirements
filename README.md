@@ -44,4 +44,15 @@ Check whether command recognition does not enter the noise band by manipulating 
 The boards communicate using logical 0 and 1. When a voice command is recognized, the high state is displayed for a second. During this time, it is received by ESP32 and, depending on the pin, the drone's flight instructions are handled. 
 
 Functionalities available for each command:
-- up: 
+- up: increasing the height by 50cm,
+- down: decreasing the height by 40cm or landing if if the drone is at a height below 30 cm,
+- left: ccw 40 degress,
+- right: cw 40 defress,
+- forward: front flip,
+- backward: back flip,
+
+If you want, you can declare your own command support.
+
+The project's operation is presented in the following network of activities:
+
+![Diagram bez tytułu](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/75881881-9f00-4ee0-bbca-a93692dc20bb)
