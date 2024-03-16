@@ -55,7 +55,7 @@ If you want, you can declare your own command support.
 
 The project's operation is presented in the following network of activities:
 
-![Diagram bez tytułu](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/75881881-9f00-4ee0-bbca-a93692dc20bb)
+![Diagram bez tytułu (1)](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/02dcdab9-21d5-4d84-9e8c-e92f13e86955)
 
 
 **BIBLIOGRAPHY**
