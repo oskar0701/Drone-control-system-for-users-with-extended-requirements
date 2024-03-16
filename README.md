@@ -47,7 +47,7 @@ The boards communicate using logical 0 and 1. When a voice command is recognized
 
 Functionalities available for each command:
 - up: increasing the height by 50cm,
-- down: decreasing the height by 40cm or landing if if the drone is at a height below 30 cm,
+- down: decreasing the height by 40cm or landing if the drone is at a height below 30 cm,
 - left: ccw 40 degress,
 - right: cw 40 degress,
 - forward: frontflip,
