@@ -14,7 +14,6 @@ To create the project, please assemble the following components:
 
 **CONNECTION DIAGRAM**
 
-
 Connect the elements according to the following diagram. You can power the microcontrollers via the USB port or directly to the pins, but remember that Arduino Nano Sense cannot be powered with 5V directly to the pins. If you want to power this board using the pins, you must first connect the jumper at the bottom of the board. The connected GPIO pins between the two boards are responsible for 6 voice commands, the recognition of which is signaled by a high state.
 The commands available in the project are: up, down, left, right, forward and backward.
 
@@ -31,3 +30,12 @@ The changes you need to make in the code involve declaring the SSID broadcasted 
 If you wish, you can make changes to the threshold values in ifology(:D) ​​for axis deflections for your convenience of use.
 
 Flash the code to the board. Now you can control the flight of the drone using the gyroscope connected to the board. The startup procedure is automatic as soon as the connection with the drone is established. However, remember that at this stage, the code does not include landing (unless you set a high state on the pin corresponding to the 'down' command).
+
+**ARDUINO SIDE**
+
+Flash the code to the board using Arduino mbedOS package that you can find in your board manager. The code provides for the recognition of 6 voice commands, the recognition of which causes a high state on the appropriate pin. If you want to train your own model, read this article: https://www.hackster.io/shahizat/micro-speech-command-recognition-with-tensorflow-lite-44dc5a
+
+Check whether command recognition does not enter the noise band by manipulating the value of the detection_threshold variable in the recognize commands.h header file. In my case, setting the value of this variable to 160 gave the best results.
+
+![image](https://github.com/oskar0701/Drone-control-system-for-users-with-extended-requirements/assets/117591871/d2107676-92cf-4ee0-9bea-3a17f48db99f)
+
