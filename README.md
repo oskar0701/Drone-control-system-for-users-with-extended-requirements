@@ -33,7 +33,9 @@ Flash the code to the board. Now you can control the flight of the drone using t
 
 **ARDUINO SIDE**
 
-Flash the code to the board using Arduino mbedOS package that you can find in your board manager. The code provides for the recognition of 6 voice commands, the recognition of which causes a high state on the appropriate pin. If you want to train your own model, read this article: https://www.hackster.io/shahizat/micro-speech-command-recognition-with-tensorflow-lite-44dc5a
+Flash the code to the board using Arduino mbedOS package that you can find in your board manager. The code provides for the recognition of 6 voice commands, the recognition of which causes a high state on the appropriate pin. 
+
+If you want to train your own model, read this article: https://www.hackster.io/shahizat/micro-speech-command-recognition-with-tensorflow-lite-44dc5a
 
 Check whether command recognition does not enter the noise band by manipulating the value of the detection_threshold variable in the recognize commands.h header file. In my case, setting the value of this variable to 160 gave the best results.
 
