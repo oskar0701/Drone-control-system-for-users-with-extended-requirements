@@ -20,7 +20,7 @@ The commands available in the project are: up, down, left, right, forward and ba
 
 ![schemat](https://github.com/oskar0701/Drone-control-system-using-gyro-and-micro-speech-model/assets/117591871/7119259e-32fd-4274-ad60-23505d97c64e)
 
-To embed electronic components, you can use the control platform project. The files are located in the prints folder.
+To embed electronic components, you can use the 3D printed control platform project. The files are located in the prints folder.
 
 **ESP SIDE**
 
